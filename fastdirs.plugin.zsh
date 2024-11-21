@@ -36,8 +36,6 @@ y() {
     fi
 
     # Resort to the default behavior if all else fails
-    if [ -z "$1" ]; then
-        yazi
-        return $?
-    fi
+    yazi
+    return $?
 }
