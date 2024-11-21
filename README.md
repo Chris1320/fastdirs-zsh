@@ -46,7 +46,7 @@ exec zsh  # Restart your shell
 First, clone the repository to `$ZSH/custom/plugins/fastdirs`.
 
 ```bash
-git clone --depth=1 -- https://github.com/Chris1320/fastdirs-zsh.git $ZSH/custom/plugins/fastdirs
+git clone --depth=1 -- https://github.com/Chris1320/fastdirs-zsh.git $ZSH_CUSTOM/plugins/fastdirs
 ```
 
 Next, add `fastdirs` to the list of plugins in your `.zshrc`.
